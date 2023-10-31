@@ -36,3 +36,16 @@
 5.  Make sure your contents look like following screenshot
 
 ![contents](./docs/images/contents.png)
+
+## Create First Django App
+
+1. Open command prompt inside the path `C:\workshops\learn_django-main`
+2. Run Following Command
+    `django-admin startproject first_app`
+3. Above command should have created a folder **first_app**
+4. In the command prompt get into the first_app folder.
+    `cd first_app`
+5. Run the command
+    `python manage.py runserver`
+6. Look into console logs and open the URL in the browser.
+7. When you get time read more [here](https://docs.djangoproject.com/en/4.2/intro/tutorial01/)
