@@ -2,9 +2,14 @@
 
 **Table of contents**
 
+- [General Awareness](#general-awareness)
 - [Why should we learn Django?](#why-should-we-learn-django)
 - [Software Requirements](#software-requirements)
 - [Create First Django Project](#create-first-django-project)
+
+## General Awareness
+
+* Read <a href="./docs/general.md" target="_blank">General Awareness</a>
 
 ## Why should we learn Django?
 
