@@ -20,5 +20,6 @@
 
 ## Lets learn about apps
 
+* Read <a href="./docs/apps.md" target="_blank">Django Apps</a>
 
 ## Workshop Project
