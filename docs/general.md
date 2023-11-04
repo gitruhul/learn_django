@@ -11,6 +11,8 @@ Open following URLs in browser
 
 ## MVC Architecture
 
+![mvc](./images/mvc.png)
+
 MVC (Model-View-Controller) is a design pattern used in software development to separate the components of an application into three interconnected elements:
 
 1. **Model:** Represents the data and the business logic of the application. It manages data storage, retrieval, and manipulation.

@@ -17,7 +17,7 @@
 
 ## Software Requirements
 
-* Read <a href="./docs/requirements_windows.md" target="_blank">Software Requirements</a>
+* Read <a href="./docs/requirements.md" target="_blank">Software Requirements</a>
 
 ## Create First Django Project
 
