@@ -4,19 +4,19 @@
 
 - [Why should we learn Django?](#why-should-we-learn-django)
 - [Software Requirements](#software-requirements)
-- [Create first Django Project](#create-first-django-project)
+- [Create First Django Project](#create-first-django-project)
 
 ## Why should we learn Django?
 
-Read [Reasons Why Learning Django](./docs/why_django.md).
+* Read <a href="./docs/why_django.md" target="_blank">Why should we learn Django?</a>
 
 ## Software Requirements
 
-Read [Software Requirements](./docs/requirements_windows.md).
+* Read <a href="./docs/requirements_windows.md" target="_blank">Software Requirements</a>
 
-## Create first Django Project
+## Create First Django Project
 
-Read [Create first Django Project](./docs/first_project.md).
+* Read <a href="./docs/first_project.md" target="_blank">Create First Django Project</a>
 
 ## Lets learn about apps
 
