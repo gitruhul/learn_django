@@ -33,6 +33,9 @@ This guide will walk you through the steps to create a Django project on a Windo
 9. **Start the Development Server**: To run your Django project locally, use the development server. Run the following command:
    ```bash
    python manage.py runserver
-10. **Access the Admin Interface**: If you created a superuser, you can access the Django admin interface at http://127.0.0.1:8000/admin/. Log in with the superuser credentials to manage your application.
+10. **Access the application in browser**:
+
+   - http://127.0.0.1:8000/ (change the port number if app is running on a different port)
+   - http://127.0.0.1:8000/admin/ (change the port number if app is running on a different port). Log in with the superuser credentials to manage your application.
 
 **_That's it! You've successfully created a Django project named "demo_project" on a Windows system. You can begin developing your web application using Django._**
