@@ -2,7 +2,7 @@
 
 ## Response Types
 
-Open following URLs in browser and observe wht is the response and its type.
+Open following URLs in browser and observe wht is the response and their type.
 
 * https://httpbin.org/deny
 * https://httpbin.org/json
