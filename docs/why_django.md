@@ -21,3 +21,17 @@
 10. **Continuous Learning**: Django serves as a foundation for exploring other web technologies and frameworks in the future.
 
 In summary, learning Django equips students with valuable web development skills, real-world project opportunities, and access to job prospects in the field.
+
+## Wellknown websites and apps that use Django
+
+| Website/App          | Description                                       | URL                                             |
+|----------------------|---------------------------------------------------|-------------------------------------------------|
+| Instagram            | Photo and video sharing platform                 | [instagram.com](https://www.instagram.com/)    |
+| Pinterest            | Visual discovery and bookmarking platform        | [pinterest.com](https://www.pinterest.com/)    |
+| Dropbox              | Cloud storage and file synchronization service  | [dropbox.com](https://www.dropbox.com/)        |
+| Mozilla              | Developer of the Firefox web browser            | [mozilla.org](https://www.mozilla.org/)        |
+| Disqus               | Blog comment hosting service                     | [disqus.com](https://www.disqus.com/)          |
+| Eventbrite           | Event management and ticketing platform         | [eventbrite.com](https://www.eventbrite.com/)  |
+| Udemy                | Online learning and teaching marketplace        | [udemy.com](https://www.udemy.com/)            |
+| National Geographic  | Website for the National Geographic Society     | [nationalgeographic.com](https://www.nationalgeographic.com/) |
+
