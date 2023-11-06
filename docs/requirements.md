@@ -17,6 +17,10 @@
       OR
     - `py -m pip install Django`
 
+  - You can tell Django is installed and which version by running the following command
+  
+    - `python -m django --version`
+
 - [ ] **Install Visual Studio Code (VS Code)**
 
     - To check if VS Code installed on your machine, open command prompt and run following command
