@@ -24,3 +24,25 @@ In Django, a web framework for Python, a project and apps are two fundamental co
 * Apps should be designed to be self-contained and reusable. This means that you can take an app from one project and use it in another without much modification, promoting code modularity and maintainability.
 
 In summary, a Django project is the high-level container that encompasses your entire web application, while apps are smaller, self-contained components within the project that provide specific functionalities and can be reused across different projects. The separation of your project into apps helps keep your code organized, maintainable, and scalable.
+
+## Steps to add an app
+
+### 1. Create app
+
+   ```bash
+   python manage.py startapp myapp1
+
+Django creates a folder named myapp1 in the project. First, take a look at the file called views.py
+
+### 2. Add/Update Views
+    - Go to myapp1/views.py
+    - Add following code
+    - ```python
+      from django.shortcuts import render
+      from django.http import HttpResponse
+      
+      def members(request):
+          return HttpResponse("Hello world!")
+
+
+
