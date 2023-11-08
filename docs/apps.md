@@ -29,10 +29,8 @@ In summary, a Django project is the high-level container that encompasses your e
 
 ### 1. Create app
 
-   ```bash
-   python manage.py startapp myapp1
-
-Django creates a folder named myapp1 in the project. First, take a look at the file called views.py
+- ```bash
+python manage.py startapp myapp1
 
 ### 2. Add/Update Views
     - Go to myapp1/views.py
