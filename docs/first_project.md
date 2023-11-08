@@ -26,6 +26,7 @@ This guide will walk you through the steps to create a Django project on a Windo
 7. **Initialize the Database**: Django uses a database to store information about your project. You'll need to create the database schema and tables by running the following commands:
    ```bash
    python manage.py migrate
+   python manage.py makemigrations
 8. **Create a Superuser**: You can create a superuser to access the Django admin interface for managing your application. Run the following command and follow the prompts to set user credentials (you can set user = admin and password = admin):
    ```bash
    python manage.py createsuperuser   
