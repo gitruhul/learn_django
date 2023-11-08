@@ -30,7 +30,7 @@ In summary, a Django project is the high-level container that encompasses your e
 ### 1. Create app
 
 - ```bash
-python manage.py startapp myapp1
+   python manage.py startapp myapp1
 
 ### 2. Add/Update Views
     - Go to myapp1/views.py
