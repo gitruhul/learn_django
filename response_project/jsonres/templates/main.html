@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% load static %}
+    <title>Response Types</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      table {
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+
+      .django-info {
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .django-logo {
+        display: block;
+        margin: 20px auto;
+        max-width: 150px; /* Adjust the size as needed */
+      }
+
+      #clock {
+        text-align: center;
+        font-size: 24px;
+        color: #0078d4;
+        background-color: #f2f2f2;
+        padding: 10px;
+        border: 2px solid #0078d4;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Student Data Response Types</h1>
+    <table>
+      <tr>
+        <th>Endpoint</th>
+        <th>Description</th>
+        <th>Open in a new tab</th>
+        <!-- New column -->
+      </tr>
+      <tr>
+        <td>/json</td>
+        <td>Returns Response (Student Data) in JSON</td>
+        <td><a href="/json" target="_blank">Open</a></td>
+      </tr>
+      <tr>
+        <td>/text</td>
+        <td>Returns Response (Student Data) in TEXT</td>
+        <td><a href="/text" target="_blank">Open</a></td>
+      </tr>
+      <tr>
+        <td>/html</td>
+        <td>Returns Response (Student Data) in HTML</td>
+        <td><a href="/html" target="_blank">Open</a></td>
+      </tr>
+    </table>
+    <div class="django-info">
+      <img
+        src="https://www.coddletech.com/sites/default/files/django-logo.png"
+        alt="Django Logo"
+        class="django-logo"
+      />
+      <h2>About This App</h2>
+      <p>
+        This web application is built using Django, a high-level Python web
+        framework. It demonstrates different response types for student data.
+      </p>
+      <p>
+        Learn more about Django on the
+        <a href="https://www.djangoproject.com/" target="_blank"
+          >official Django website</a
+        >.
+      </p>
+    </div>
+    <div id="clock"></div>
+    <script>
+      function updateClock() {
+        const now = new Date(); // Get the current date and time
+        const options = {
+          timeZone: "Asia/Kolkata",
+          hour: "numeric",
+          minute: "numeric",
+          second: "numeric",
+        };
+        const istTime = now.toLocaleString("en-US", options); // Convert to IST time format
+
+        // Display the IST time in the "clock" div
+        document.getElementById("clock").textContent =
+          "Current IST Time: " + istTime;
+      }
+
+      // Update the clock every second (1000 milliseconds)
+      setInterval(updateClock, 1000);
+
+      // Initial update
+      updateClock();
+    </script>
+  </body>
+</html>
