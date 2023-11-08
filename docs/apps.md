@@ -31,16 +31,39 @@ In summary, a Django project is the high-level container that encompasses your e
 
 - ```bash
    python manage.py startapp myapp1
+- Django creates a folder named members in the project.
+- These are all files and folders with a specific meaning.
 
 ### 2. Add/Update Views
-    - Go to myapp1/views.py
-    - Add following code
-    - ```python
-      from django.shortcuts import render
-      from django.http import HttpResponse
-      
-      def members(request):
-          return HttpResponse("Hello world!")
+- Go to myapp1/views.py
+- Add following code
+- ```python
+  from django.shortcuts import render
+  from django.http import HttpResponse
+  
+  def hello(request):
+      return HttpResponse("Hello world!")
+### 3. Define URLs
+- Create a file (if not there already) named urls.py in the same folder as the views.py file in the app
+- ```python
+  from django.urls import path
+  from . import views
 
+  urlpatterns = [
+    path('data/', views.hello, name='hello'),
+  ]
+- The urls.py file you just created is specific for the app. We have to do some routing in the root project level as well.
+- ```python
+  from django.contrib import admin
+  from django.urls import include, path
+
+  urlpatterns = [
+      path('', include('myapp.urls')),
+      path('admin/', admin.site.urls),
+  ]
+### 4. Run Server
+- ```bash
+  py manage.py runserver
+- In the browser window, type 127.0.0.1:8000/data/ in the address bar.
 
 
