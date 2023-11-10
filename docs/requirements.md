@@ -7,7 +7,8 @@
     - **OUTPUT**
         - If python is installed, `Python 3.10.0` (version number may change)
         - If python is NOT installed, `'python' is not recognized as an internal or external command, operable program or batch file.`
-    - If you get the first output (version number), proceed to next step. OR if you get the second output (error message), please install python in your system. Follow steps (till step 4) as mentioned in [how-to-install-python-on-windows](https://www.geeksforgeeks.org/how-to-install-python-on-windows/)
+    - If you get the first output (version number), proceed to next step. OR if you get the second output (error message), please install python in your system. Follow steps (till step 4) as mentioned in [how-to-install-python-on-windows](https://www.geeksforgeeks.org/how-to-install-python-on-windows/) OR Watch Youtube video
+    - [![How to install Python on Windows 10](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DKn1HF3oD19c)](https://www.youtube.com/watch?v=Kn1HF3oD19c)
 
 - [ ] **Install django package**
 
