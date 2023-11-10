@@ -21,3 +21,14 @@
 * Read <a href="./docs/apps.md" target="_blank">Django Apps</a>
 
 ## 6. Workshop Project
+
+* Access the Tutorial: Visit the provided URL <a href="https://www.w3schools.com/django/index.php" target="_blank">Django Tutorial</a>
+* **Follow the Steps:** Go through the tutorial content on the page. It will likely cover various aspects of Django, such as setting up a project, creating models, views, and templates, handling forms, and more.
+* **Practice with Code:** Tutorials usually include code examples. Try to understand the code snippets provided and experiment by writing your own code.
+
+## 7. Sample DJango Projects on GitHub
+
+1. https://github.com/gitruhul/w3s-django-tutorial
+2. https://github.com/CodeIntelli/Django-udemy-clone.git
+3. https://github.com/samarth-p/College-ERP
+
