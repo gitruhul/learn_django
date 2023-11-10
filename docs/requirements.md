@@ -28,4 +28,5 @@
     - **OUTPUT**
         - If vscode is installed, `1.83.1` (version number may change)
         - If vscode is NOT installed, `'code' is not recognized as an internal or external command, operable program or batch file.`
-    - If you get the first output (version number), proceed to next step. OR if you get the second output (error message), please install VSCode in your system. Follow steps (only 3 steps) as mentioned in [Running Visual Studio Code on Windows](https://code.visualstudio.com/docs/setup/windows)
+    - If you get the first output (version number), proceed to next step. OR if you get the second output (error message), please install VSCode in your system. Follow steps (only 3 steps) as mentioned in [Running Visual Studio Code on Windows](https://code.visualstudio.com/docs/setup/windows) OR
+    - [![How to Install Visual Studio Code on Windows 10](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DCPmQwlycfGI)](https://www.youtube.com/watch?v=CPmQwlycfGI)
