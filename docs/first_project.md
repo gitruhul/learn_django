@@ -23,7 +23,7 @@ This guide will walk you through the steps to create a Django project on a Windo
 
    OR
 
-   python -m django startproject mysite
+   python -m django startproject demo_project
    
 6. **Navigate to the Project Directory**:Change your working directory to the newly created project folder:
    ```bash
