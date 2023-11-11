@@ -20,6 +20,11 @@ This guide will walk you through the steps to create a Django project on a Windo
 5. **Create a Django Project**: Navigate to the directory where you want to create your Django project and run the following command to create a new project with the name "demo_project":
    ```bash
    django-admin startproject demo_project
+
+   OR
+
+   python -m django startproject mysite
+   
 6. **Navigate to the Project Directory**:Change your working directory to the newly created project folder:
    ```bash
    C:\workshops\django> cd demo_project
