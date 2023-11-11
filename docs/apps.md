@@ -58,7 +58,7 @@ In summary, a Django project is the high-level container that encompasses your e
   from django.urls import include, path
 
   urlpatterns = [
-      path('', include('myapp.urls')),
+      path('', include('myapp1.urls')),
       path('admin/', admin.site.urls),
   ]
 ### 4. Run Server
